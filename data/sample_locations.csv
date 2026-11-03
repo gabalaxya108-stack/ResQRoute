@@ -1,0 +1,14 @@
+id,name,category,x,y,notes
+"node-h1","Central General Hospital","Hospital",120,120,"Level-1 Emergency Trauma Center & Air Ambulance Helipad"
+"node-fs1","Metro Fire Station #1","Fire Station",320,90,"Primary Heavy Rescue & Hazardous Materials Unit"
+"node-c1","Downtown Civic Plaza","Commercial",240,260,"High-density commercial center with heavy pedestrian traffic"
+"node-i1","Northbridge Crossing","Intersection",480,150,"Major arterial bridge junction connecting northern district"
+"node-i2","Westfield Expressway Junction","Intersection",130,400,"Interstate junction feeding western suburban sprawl"
+"node-i3","Grand Harbor Parkway","Intersection",360,380,"Harborside boulevard with rapid emergency lane access"
+"node-h2","Mercy Memorial Clinic","Hospital",640,260,"Pediatric urgent care facility & satellite triage post"
+"node-fs2","Station 9 Rescue Squad","Fire Station",520,470,"Rapid intervention vehicle & marine rescue unit"
+"node-r1","Oakridge Residential Estate","Residential",190,540,"Suburban gated district with residential avenues"
+"node-p1","Police Precinct Central","Police Station",620,110,"Municipal law enforcement headquarters & dispatch hub"
+"node-amb","Southside Ambulance Station","Ambulance Post",360,580,"Advanced Life Support (ALS) emergency rapid response fleet"
+"node-dock","Seaport Industrial Pier [Isolated]","Industrial",740,520,"Detached maritime cargo dock; currently disconnected bridge under repair"
+

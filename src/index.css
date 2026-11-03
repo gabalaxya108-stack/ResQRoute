@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F5F7FA;
+    color: #172033;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Enable tabular numerals for all metrics, numbers, and logs */
+  .tabular-nums, .font-mono, table td {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbars for data tables and logs */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F4F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD4E1;
+  border-radius: 2.5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9AA8BC;
+}
+
+/* Print Styles for Academic Report */
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-break-inside-avoid {
+    break-inside: avoid;
+  }
+  .print-page-break {
+    page-break-before: always;
+  }
+}

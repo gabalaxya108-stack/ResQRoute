@@ -1,0 +1,265 @@
+{
+  "nodes": [
+    {
+      "id": "node-h1",
+      "name": "Central General Hospital",
+      "category": "Hospital",
+      "x": 120,
+      "y": 120,
+      "notes": "Level-1 Emergency Trauma Center & Air Ambulance Helipad"
+    },
+    {
+      "id": "node-fs1",
+      "name": "Metro Fire Station #1",
+      "category": "Fire Station",
+      "x": 320,
+      "y": 90,
+      "notes": "Primary Heavy Rescue & Hazardous Materials Unit"
+    },
+    {
+      "id": "node-c1",
+      "name": "Downtown Civic Plaza",
+      "category": "Commercial",
+      "x": 240,
+      "y": 260,
+      "notes": "High-density commercial center with heavy pedestrian traffic"
+    },
+    {
+      "id": "node-i1",
+      "name": "Northbridge Crossing",
+      "category": "Intersection",
+      "x": 480,
+      "y": 150,
+      "notes": "Major arterial bridge junction connecting northern district"
+    },
+    {
+      "id": "node-i2",
+      "name": "Westfield Expressway Junction",
+      "category": "Intersection",
+      "x": 130,
+      "y": 400,
+      "notes": "Interstate junction feeding western suburban sprawl"
+    },
+    {
+      "id": "node-i3",
+      "name": "Grand Harbor Parkway",
+      "category": "Intersection",
+      "x": 360,
+      "y": 380,
+      "notes": "Harborside boulevard with rapid emergency lane access"
+    },
+    {
+      "id": "node-h2",
+      "name": "Mercy Memorial Clinic",
+      "category": "Hospital",
+      "x": 640,
+      "y": 260,
+      "notes": "Pediatric urgent care facility & satellite triage post"
+    },
+    {
+      "id": "node-fs2",
+      "name": "Station 9 Rescue Squad",
+      "category": "Fire Station",
+      "x": 520,
+      "y": 470,
+      "notes": "Rapid intervention vehicle & marine rescue unit"
+    },
+    {
+      "id": "node-r1",
+      "name": "Oakridge Residential Estate",
+      "category": "Residential",
+      "x": 190,
+      "y": 540,
+      "notes": "Suburban gated district with residential avenues"
+    },
+    {
+      "id": "node-p1",
+      "name": "Police Precinct Central",
+      "category": "Police Station",
+      "x": 620,
+      "y": 110,
+      "notes": "Municipal law enforcement headquarters & dispatch hub"
+    },
+    {
+      "id": "node-amb",
+      "name": "Southside Ambulance Station",
+      "category": "Ambulance Post",
+      "x": 360,
+      "y": 580,
+      "notes": "Advanced Life Support (ALS) emergency rapid response fleet"
+    },
+    {
+      "id": "node-dock",
+      "name": "Seaport Industrial Pier [Isolated]",
+      "category": "Industrial",
+      "x": 740,
+      "y": 520,
+      "notes": "Detached maritime cargo dock; currently disconnected bridge under repair"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "source": "node-h1",
+      "target": "node-fs1",
+      "distance": 3.2,
+      "travelTime": 4.8,
+      "roadName": "Medical Boulevard",
+      "speedLimit": 50
+    },
+    {
+      "id": "edge-2",
+      "source": "node-h1",
+      "target": "node-c1",
+      "distance": 2.8,
+      "travelTime": 5.5,
+      "roadName": "Civic Center Way",
+      "speedLimit": 40
+    },
+    {
+      "id": "edge-3",
+      "source": "node-h1",
+      "target": "node-i2",
+      "distance": 5.1,
+      "travelTime": 6.2,
+      "roadName": "West Interstate 90",
+      "speedLimit": 70
+    },
+    {
+      "id": "edge-4",
+      "source": "node-fs1",
+      "target": "node-i1",
+      "distance": 3.0,
+      "travelTime": 3.6,
+      "roadName": "Firehouse Avenue",
+      "speedLimit": 60
+    },
+    {
+      "id": "edge-5",
+      "source": "node-fs1",
+      "target": "node-p1",
+      "distance": 4.5,
+      "travelTime": 5.4,
+      "roadName": "Security Ring Road",
+      "speedLimit": 60
+    },
+    {
+      "id": "edge-6",
+      "source": "node-c1",
+      "target": "node-i1",
+      "distance": 3.5,
+      "travelTime": 5.2,
+      "roadName": "Central Crosstown",
+      "speedLimit": 50
+    },
+    {
+      "id": "edge-7",
+      "source": "node-c1",
+      "target": "node-i3",
+      "distance": 2.2,
+      "travelTime": 3.3,
+      "roadName": "Grand Avenue",
+      "speedLimit": 50
+    },
+    {
+      "id": "edge-8",
+      "source": "node-c1",
+      "target": "node-i2",
+      "distance": 2.9,
+      "travelTime": 4.3,
+      "roadName": "Metro Park Street",
+      "speedLimit": 50
+    },
+    {
+      "id": "edge-9",
+      "source": "node-i1",
+      "target": "node-h2",
+      "distance": 2.7,
+      "travelTime": 3.2,
+      "roadName": "Mercy Expressway Link",
+      "speedLimit": 60
+    },
+    {
+      "id": "edge-10",
+      "source": "node-i1",
+      "target": "node-p1",
+      "distance": 2.4,
+      "travelTime": 2.9,
+      "roadName": "Precinct Bypass",
+      "speedLimit": 60
+    },
+    {
+      "id": "edge-11",
+      "source": "node-i2",
+      "target": "node-r1",
+      "distance": 3.1,
+      "travelTime": 4.6,
+      "roadName": "Suburban Boulevard",
+      "speedLimit": 50
+    },
+    {
+      "id": "edge-12",
+      "source": "node-i2",
+      "target": "node-i3",
+      "distance": 3.8,
+      "travelTime": 4.5,
+      "roadName": "Midland Ring Arterial",
+      "speedLimit": 60
+    },
+    {
+      "id": "edge-13",
+      "source": "node-i3",
+      "target": "node-fs2",
+      "distance": 2.6,
+      "travelTime": 3.1,
+      "roadName": "Harbor Rescue Link",
+      "speedLimit": 60
+    },
+    {
+      "id": "edge-14",
+      "source": "node-i3",
+      "target": "node-amb",
+      "distance": 4.0,
+      "travelTime": 4.8,
+      "roadName": "South Meridian Parkway",
+      "speedLimit": 60
+    },
+    {
+      "id": "edge-15",
+      "source": "node-h2",
+      "target": "node-fs2",
+      "distance": 3.6,
+      "travelTime": 4.3,
+      "roadName": "East Coast Ringway",
+      "speedLimit": 60
+    },
+    {
+      "id": "edge-16",
+      "source": "node-r1",
+      "target": "node-amb",
+      "distance": 2.5,
+      "travelTime": 3.8,
+      "roadName": "South Ridge Way",
+      "speedLimit": 45
+    },
+    {
+      "id": "edge-17",
+      "source": "node-fs2",
+      "target": "node-amb",
+      "distance": 2.1,
+      "travelTime": 2.5,
+      "roadName": "Station Dispatch Run",
+      "speedLimit": 60
+    },
+    {
+      "id": "edge-18",
+      "source": "node-p1",
+      "target": "node-h2",
+      "distance": 3.4,
+      "travelTime": 4.1,
+      "roadName": "District Patrolway",
+      "speedLimit": 55
+    }
+  ]
+}
+

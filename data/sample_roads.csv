@@ -1,0 +1,20 @@
+id,source,target,distance,travelTime,roadName,speedLimit
+"edge-1","node-h1","node-fs1",3.2,4.8,"Medical Boulevard",50
+"edge-2","node-h1","node-c1",2.8,5.5,"Civic Center Way",40
+"edge-3","node-h1","node-i2",5.1,6.2,"West Interstate 90",70
+"edge-4","node-fs1","node-i1",3.0,3.6,"Firehouse Avenue",60
+"edge-5","node-fs1","node-p1",4.5,5.4,"Security Ring Road",60
+"edge-6","node-c1","node-i1",3.5,5.2,"Central Crosstown",50
+"edge-7","node-c1","node-i3",2.2,3.3,"Grand Avenue",50
+"edge-8","node-c1","node-i2",2.9,4.3,"Metro Park Street",50
+"edge-9","node-i1","node-h2",2.7,3.2,"Mercy Expressway Link",60
+"edge-10","node-i1","node-p1",2.4,2.9,"Precinct Bypass",60
+"edge-11","node-i2","node-r1",3.1,4.6,"Suburban Boulevard",50
+"edge-12","node-i2","node-i3",3.8,4.5,"Midland Ring Arterial",60
+"edge-13","node-i3","node-fs2",2.6,3.1,"Harbor Rescue Link",60
+"edge-14","node-i3","node-amb",4.0,4.8,"South Meridian Parkway",60
+"edge-15","node-h2","node-fs2",3.6,4.3,"East Coast Ringway",60
+"edge-16","node-r1","node-amb",2.5,3.8,"South Ridge Way",45
+"edge-17","node-fs2","node-amb",2.1,2.5,"Station Dispatch Run",60
+"edge-18","node-p1","node-h2",3.4,4.1,"District Patrolway",55
+
